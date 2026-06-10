@@ -1,0 +1,546 @@
+Machine Learning (ML) Overview Roadmap
+Created by Triveni Paswan using various online resources, research papers, official documentation, and learning references.
+
+1. Introduction to Machine Learning
+
+Definition:
+Machine Learning (ML) is a subset of Artificial Intelligence (AI) that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed.
+
+Goal:
+To build systems that can automatically learn from data and improve performance over time.
+
+Examples:
+- Netflix Recommendations
+- YouTube Recommendations
+- Spam Email Detection
+- Credit Card Fraud Detection
+- Stock Price Prediction
+
+2. AI vs ML vs DL
+
+Artificial Intelligence (AI)
+Definition:
+Creating intelligent systems capable of simulating human intelligence.
+
+Machine Learning (ML)
+Definition:
+Subset of AI that learns from data.
+
+Deep Learning (DL)
+Definition:
+Subset of ML using multi-layer neural networks.
+
+Relationship:
+
+AI
+└── Machine Learning
+    └── Deep Learning
+
+3. Prerequisites for Machine Learning
+
+3.1 Mathematics
+
+Topics:
+- Linear Algebra
+- Probability
+- Statistics
+- Calculus
+- Optimization
+
+3.2 Programming
+
+Topics:
+- Python
+- OOP
+- Data Structures
+- Algorithms
+
+3.3 Data Handling
+
+Topics:
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+
+4. Machine Learning Workflow
+
+Problem Definition
+↓
+Data Collection
+↓
+Data Cleaning
+↓
+Feature Engineering
+↓
+Model Selection
+↓
+Model Training
+↓
+Model Evaluation
+↓
+Model Deployment
+↓
+Monitoring
+
+5. Data Collection
+
+Definition:
+Gathering data from various sources.
+
+Sources:
+- CSV Files
+- Databases
+- APIs
+- Sensors
+- Web Scraping
+
+6. Data Preprocessing
+
+Definition:
+Preparing raw data for machine learning.
+
+Topics:
+- Missing Values
+- Duplicate Removal
+- Outlier Detection
+- Feature Scaling
+- Data Cleaning
+
+7. Feature Engineering
+
+Definition:
+Creating useful features from raw data.
+
+Techniques:
+- Feature Extraction
+- Feature Transformation
+- Feature Selection
+
+8. Types of Machine Learning
+
+8.1 Supervised Learning
+
+Definition:
+Learning using labeled data.
+
+Input → Output Mapping
+
+Examples:
+- House Price Prediction
+- Email Spam Detection
+
+Algorithms:
+- Linear Regression
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- SVM
+- KNN
+- Naive Bayes
+- XGBoost
+
+8.2 Unsupervised Learning
+
+Definition:
+Learning from unlabeled data.
+
+Examples:
+- Customer Segmentation
+- Market Basket Analysis
+
+Algorithms:
+- K-Means
+- Hierarchical Clustering
+- DBSCAN
+- PCA
+
+8.3 Semi-Supervised Learning
+
+Definition:
+Uses both labeled and unlabeled data.
+
+Applications:
+- Medical Data Analysis
+- Image Classification
+
+8.4 Reinforcement Learning
+
+Definition:
+Learning through rewards and penalties.
+
+Components:
+- Agent
+- Environment
+- Reward
+
+Applications:
+- Robotics
+- Games
+- Self Driving Cars
+
+9. Regression
+
+Definition:
+Predicting continuous numerical values.
+
+Examples:
+- House Price Prediction
+- Temperature Prediction
+
+Algorithms:
+
+9.1 Linear Regression
+
+Definition:
+Fits a straight line to data.
+
+Formula:
+
+y = mx + b
+
+9.2 Multiple Linear Regression
+
+Definition:
+Uses multiple input variables.
+
+9.3 Polynomial Regression
+
+Definition:
+Fits curved relationships.
+
+10. Classification
+
+Definition:
+Predicting categories or classes.
+
+Examples:
+- Spam / Not Spam
+- Disease / No Disease
+
+Algorithms:
+
+10.1 Logistic Regression
+
+10.2 Decision Tree
+
+10.3 Random Forest
+
+10.4 Support Vector Machine (SVM)
+
+10.5 K-Nearest Neighbors (KNN)
+
+10.6 Naive Bayes
+
+11. Clustering
+
+Definition:
+Grouping similar data points.
+
+Algorithms:
+
+11.1 K-Means
+
+11.2 Hierarchical Clustering
+
+11.3 DBSCAN
+
+Applications:
+- Customer Segmentation
+- Recommendation Systems
+
+12. Dimensionality Reduction
+
+Definition:
+Reducing number of features while preserving information.
+
+Algorithms:
+
+12.1 PCA
+
+12.2 LDA
+
+12.3 t-SNE
+
+Benefits:
+- Faster Training
+- Reduced Complexity
+
+13. Model Training
+
+Definition:
+Process of teaching the model using training data.
+
+Dataset Split:
+
+Training Set
+Validation Set
+Testing Set
+
+Common Split:
+
+70%
+15%
+15%
+
+14. Overfitting and Underfitting
+
+14.1 Overfitting
+
+Definition:
+Model memorizes training data and performs poorly on new data.
+
+Solution:
+- More Data
+- Regularization
+- Cross Validation
+
+14.2 Underfitting
+
+Definition:
+Model fails to learn important patterns.
+
+Solution:
+- Better Features
+- Complex Models
+
+15. Evaluation Metrics
+
+15.1 Regression Metrics
+
+MAE
+Mean Absolute Error
+
+MSE
+Mean Squared Error
+
+RMSE
+Root Mean Squared Error
+
+R² Score
+
+15.2 Classification Metrics
+
+Accuracy
+
+Precision
+
+Recall
+
+F1 Score
+
+Confusion Matrix
+
+ROC Curve
+
+AUC Score
+
+16. Cross Validation
+
+Definition:
+Technique used to evaluate model reliability.
+
+Types:
+
+- K-Fold Cross Validation
+- Stratified K-Fold
+
+17. Ensemble Learning
+
+Definition:
+Combining multiple models.
+
+Techniques:
+
+17.1 Bagging
+
+Example:
+Random Forest
+
+17.2 Boosting
+
+Examples:
+- AdaBoost
+- XGBoost
+- LightGBM
+- CatBoost
+
+17.3 Stacking
+
+18. Hyperparameter Tuning
+
+Definition:
+Optimizing model parameters.
+
+Methods:
+
+- Grid Search
+- Random Search
+- Bayesian Optimization
+
+19. Feature Selection
+
+Definition:
+Selecting important features.
+
+Methods:
+
+- Filter Method
+- Wrapper Method
+- Embedded Method
+
+20. Popular Machine Learning Algorithms
+
+Regression:
+- Linear Regression
+- Polynomial Regression
+
+Classification:
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- SVM
+- KNN
+- Naive Bayes
+
+Clustering:
+- K-Means
+- DBSCAN
+
+Dimensionality Reduction:
+- PCA
+- LDA
+
+21. Machine Learning Libraries
+
+21.1 NumPy
+
+Purpose:
+Numerical Computing
+
+21.2 Pandas
+
+Purpose:
+Data Manipulation
+
+21.3 Matplotlib
+
+Purpose:
+Visualization
+
+21.4 Seaborn
+
+Purpose:
+Statistical Visualization
+
+21.5 Scikit-Learn
+
+Purpose:
+Machine Learning Algorithms
+
+21.6 XGBoost
+
+Purpose:
+Advanced Boosting
+
+22. Model Deployment
+
+Definition:
+Making trained models available for real-world usage.
+
+Tools:
+
+- Flask
+- FastAPI
+- Docker
+- Kubernetes
+
+23. MLOps
+
+Definition:
+Managing ML lifecycle.
+
+Topics:
+
+- Version Control
+- CI/CD
+- Monitoring
+- Automation
+
+24. Real World Applications
+
+- Recommendation Systems
+- Fraud Detection
+- Healthcare
+- Finance
+- Agriculture
+- Cyber Security
+- E-Commerce
+- Search Engines
+
+25. Machine Learning Projects
+
+Beginner:
+- Student Marks Prediction
+- House Price Prediction
+- Spam Detection
+
+Intermediate:
+- Customer Segmentation
+- Loan Prediction
+- Movie Recommendation
+
+Advanced:
+- Fraud Detection System
+- Stock Market Prediction
+- Predictive Maintenance
+
+26. Machine Learning Interview Preparation
+
+Important Topics:
+
+- Types of ML
+- Supervised Learning
+- Unsupervised Learning
+- Regression
+- Classification
+- Clustering
+- K-Means
+- Decision Tree
+- Random Forest
+- SVM
+- KNN
+- Naive Bayes
+- PCA
+- Overfitting
+- Underfitting
+- Bias vs Variance
+- Cross Validation
+- Feature Engineering
+- Evaluation Metrics
+- Hyperparameter Tuning
+- Ensemble Learning
+
+Learning Flow:
+
+Mathematics
+↓
+Python
+↓
+Data Analysis
+↓
+Statistics
+↓
+Machine Learning Fundamentals
+↓
+Supervised Learning
+↓
+Unsupervised Learning
+↓
+Model Evaluation
+↓
+Projects
+↓
+Deployment
+↓
+Interview Preparation
