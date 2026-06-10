@@ -1,0 +1,501 @@
+Prompt Engineering Overview Roadmap
+Created by Triveni Paswan using various online resources, research papers, official documentation, and learning references.
+
+1. Introduction to Prompt Engineering
+
+Definition:
+Prompt Engineering is the process of designing, structuring and optimizing prompts to obtain accurate, relevant and useful responses from AI models.
+
+Goal:
+To improve the quality, accuracy and consistency of AI-generated outputs.
+
+Examples:
+- ChatGPT Prompts
+- Gemini Prompts
+- Claude Prompts
+- AI Coding Prompts
+- AI Content Writing Prompts
+
+2. What is a Prompt?
+
+Definition:
+A prompt is an instruction, question or input provided to an AI model.
+
+Example:
+
+Prompt:
+Explain Machine Learning.
+
+Output:
+Machine Learning is a subset of Artificial Intelligence...
+
+3. Components of a Good Prompt
+
+3.1 Role
+
+Definition:
+Assigning a role to the AI.
+
+Example:
+
+Act as a Data Scientist.
+
+3.2 Task
+
+Definition:
+Specifying what needs to be done.
+
+Example:
+
+Explain Deep Learning.
+
+3.3 Context
+
+Definition:
+Providing background information.
+
+Example:
+
+Explain Deep Learning for beginners.
+
+3.4 Constraints
+
+Definition:
+Defining limitations.
+
+Example:
+
+Explain in less than 100 words.
+
+3.5 Output Format
+
+Definition:
+Specifying response structure.
+
+Example:
+
+Provide answer in table format.
+
+4. Why Prompt Engineering Is Important
+
+Benefits:
+
+- Better Accuracy
+- Better Responses
+- Reduced Hallucinations
+- Improved Productivity
+- Better AI Control
+
+5. Types of Prompting
+
+5.1 Zero-Shot Prompting
+
+Definition:
+Prompting without examples.
+
+Example:
+
+Explain AI.
+
+5.2 One-Shot Prompting
+
+Definition:
+Providing one example.
+
+Example:
+
+Input: Hello
+Output: Hi
+
+Input: Good Morning
+Output: ?
+
+5.3 Few-Shot Prompting
+
+Definition:
+Providing multiple examples.
+
+Benefits:
+- Better Accuracy
+- Better Pattern Learning
+
+6. Chain of Thought (CoT)
+
+Definition:
+Encouraging AI to think step-by-step.
+
+Example:
+
+Solve the problem step by step.
+
+Benefits:
+- Better Reasoning
+- Better Accuracy
+
+7. Self Consistency Prompting
+
+Definition:
+Generating multiple reasoning paths and selecting the best answer.
+
+Applications:
+- Mathematics
+- Logical Reasoning
+
+8. Tree of Thoughts (ToT)
+
+Definition:
+Exploring multiple reasoning branches before selecting a solution.
+
+Applications:
+- Complex Problem Solving
+- Planning
+
+9. Role Prompting
+
+Definition:
+Assigning a professional role.
+
+Examples:
+
+Act as:
+- Software Engineer
+- Data Scientist
+- Doctor
+- Teacher
+- Interviewer
+
+10. Instruction Prompting
+
+Definition:
+Giving direct instructions.
+
+Example:
+
+Summarize the article.
+
+11. Contextual Prompting
+
+Definition:
+Providing additional information.
+
+Example:
+
+Based on the following document...
+
+12. Persona Prompting
+
+Definition:
+Assigning a personality.
+
+Examples:
+
+Act like:
+- Mentor
+- Recruiter
+- Interviewer
+- Senior Developer
+
+13. Output Formatting Prompting
+
+Definition:
+Controlling output structure.
+
+Formats:
+
+- Table
+- JSON
+- Markdown
+- Bullet Points
+- Tree Format
+
+14. Structured Prompting
+
+Definition:
+Organizing prompts using sections.
+
+Structure:
+
+Role
+Task
+Context
+Constraints
+Output Format
+
+15. Prompt Templates
+
+Definition:
+Reusable prompt structures.
+
+Example:
+
+Role:
+Act as a Senior Developer.
+
+Task:
+Explain REST APIs.
+
+Output:
+Table Format.
+
+16. Prompt Chaining
+
+Definition:
+Using output of one prompt as input for another.
+
+Flow:
+
+Prompt 1
+↓
+Output
+↓
+Prompt 2
+↓
+Output
+
+Applications:
+- Research
+- Automation
+
+17. Retrieval Augmented Prompting
+
+Definition:
+Combining prompts with external information.
+
+Applications:
+- RAG Systems
+- Enterprise Chatbots
+
+18. Prompt Optimization
+
+Definition:
+Improving prompt quality.
+
+Techniques:
+
+- Clear Instructions
+- Better Context
+- Examples
+- Constraints
+
+19. Prompt Testing
+
+Definition:
+Evaluating prompt effectiveness.
+
+Metrics:
+
+- Accuracy
+- Consistency
+- Relevance
+
+20. Prompt Debugging
+
+Definition:
+Finding and fixing prompt issues.
+
+Common Problems:
+
+- Ambiguity
+- Missing Context
+- Poor Formatting
+
+21. Prompt Security
+
+Definition:
+Protecting prompts and AI systems.
+
+Topics:
+
+21.1 Prompt Injection
+
+Definition:
+Manipulating AI using malicious prompts.
+
+21.2 Jailbreaking
+
+Definition:
+Attempting to bypass AI restrictions.
+
+21.3 Data Leakage
+
+Definition:
+Unintended exposure of information.
+
+22. Prompt Engineering for ChatGPT
+
+Topics:
+
+- Conversation Design
+- Memory Usage
+- Structured Outputs
+- Long Context Handling
+
+23. Prompt Engineering for Coding
+
+Definition:
+Using prompts for software development.
+
+Applications:
+
+- Code Generation
+- Debugging
+- Refactoring
+- Documentation
+
+Examples:
+
+Generate React Component.
+
+Optimize Python Code.
+
+24. Prompt Engineering for Content Creation
+
+Applications:
+
+- Blogs
+- Articles
+- Emails
+- Marketing Content
+- SEO Content
+
+25. Prompt Engineering for Data Analysis
+
+Applications:
+
+- SQL Queries
+- Data Cleaning
+- Visualization
+- Reporting
+
+26. Prompt Engineering for Research
+
+Applications:
+
+- Literature Review
+- Summarization
+- Knowledge Extraction
+
+27. Prompt Engineering for Education
+
+Applications:
+
+- Learning Plans
+- Explanations
+- Quiz Generation
+- Tutoring
+
+28. Advanced Prompt Engineering
+
+Topics:
+
+- Chain of Thought
+- Tree of Thoughts
+- Self Reflection
+- Self Consistency
+- Multi Agent Prompting
+
+29. AI Agents and Prompt Engineering
+
+Definition:
+Using prompts to control AI agents.
+
+Components:
+
+- Planning
+- Memory
+- Tool Usage
+- Decision Making
+
+30. Prompt Engineering Tools
+
+30.1 ChatGPT
+
+30.2 Gemini
+
+30.3 Claude
+
+30.4 Perplexity
+
+30.5 Copilot
+
+30.6 LangChain
+
+30.7 LlamaIndex
+
+31. Real World Applications
+
+- Customer Support
+- Content Generation
+- Software Development
+- Research
+- Education
+- Healthcare
+- Finance
+- Marketing
+
+32. Prompt Engineering Projects
+
+Beginner:
+
+- AI Blog Writer
+- Email Generator
+- Resume Generator
+
+Intermediate:
+
+- AI Research Assistant
+- SQL Query Generator
+- AI Tutor
+
+Advanced:
+
+- RAG Chatbot
+- AI Agent
+- Multi Agent System
+- Enterprise Assistant
+
+33. Prompt Engineering Interview Preparation
+
+Important Topics:
+
+- Prompt
+- Zero Shot Prompting
+- One Shot Prompting
+- Few Shot Prompting
+- Chain of Thought
+- Tree of Thoughts
+- Prompt Chaining
+- RAG
+- AI Agents
+- Prompt Injection
+- Jailbreaking
+- LangChain
+- LlamaIndex
+
+Learning Flow:
+
+AI Fundamentals
+↓
+LLMs
+↓
+Prompt Basics
+↓
+Prompt Templates
+↓
+Zero Shot Prompting
+↓
+Few Shot Prompting
+↓
+Chain of Thought
+↓
+Tree of Thoughts
+↓
+Prompt Chaining
+↓
+RAG
+↓
+AI Agents
+↓
+Projects
+↓
+Interview Preparation
