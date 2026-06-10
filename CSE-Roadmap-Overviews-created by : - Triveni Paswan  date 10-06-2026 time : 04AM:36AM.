@@ -1,0 +1,206 @@
+CSE-Roadmap-Overviews-created by : - Triveni Paswan  date 10-06-2026 time : 04AM:36AM.
+│
+├── 01-Mathematics
+│   ├── Arithmetic
+│   ├── Algebra
+│   ├── Trigonometry
+│   ├── Coordinate Geometry
+│   ├── Calculus
+│   │   ├── Limits
+│   │   ├── Continuity
+│   │   ├── Differentiation
+│   │   ├── Applications of Derivatives
+│   │   ├── Integration
+│   │   ├── Definite Integration
+│   │   ├── Multiple Integration
+│   │   └── Vector Calculus
+│   ├── Linear Algebra
+│   ├── Differential Equations
+│   ├── Probability
+│   ├── Statistics
+│   ├── Discrete Mathematics
+│   ├── Numerical Methods
+│   ├── Graph Theory
+│   ├── Optimization
+│   └── Mathematical Logic
+│
+├── 02-Physics
+│   ├── Mechanics
+│   ├── Oscillations
+│   ├── Waves
+│   ├── Optics
+│   ├── Thermodynamics
+│   ├── Electromagnetism
+│   ├── Modern Physics
+│   ├── Quantum Physics
+│   ├── Semiconductor Physics
+│   └── Physics Lab
+│
+├── 03-Electrical-Engineering
+│   ├── Basic Electrical Engineering
+│   ├── Circuit Theory
+│   ├── Network Analysis
+│   ├── AC Circuits
+│   ├── DC Circuits
+│   ├── Transformers
+│   ├── Electrical Machines
+│   ├── Power Systems
+│   ├── Control Systems
+│   └── Electrical Lab
+│
+├── 04-Electronics-and-ECE
+│   ├── Semiconductor Devices
+│   ├── Diodes
+│   ├── Transistors
+│   ├── Analog Electronics
+│   ├── Digital Electronics
+│   ├── Boolean Algebra
+│   ├── Logic Gates
+│   ├── Signals and Systems
+│   ├── Communication Systems
+│   ├── Microprocessors
+│   ├── Microcontrollers
+│   ├── Embedded Systems
+│   ├── VLSI Basics
+│   └── Electronics Lab
+│
+├── 05-Programming
+│   ├── CS101 Computer Programming and Utilization
+│   ├── CS103 Computing and Science
+│   ├── CS152 Abstractions and Paradigms for Programming
+│   ├── CS104 Software Systems Lab
+│   ├── CS108 Software Systems Lab
+│   ├── CS154 Programming Paradigms Laboratory
+│   └── CS355 Programming Paradigms Laboratory
+│
+├── 06-Mathematical-CS
+│   ├── CS105 Discrete Structures
+│   ├── CS207 Discrete Structures
+│   ├── CS228 Logic for CS
+│   ├── CS208 Automata Theory and Logic
+│   └── CS310 Automata Theory
+│
+├── 07-DSA
+│   ├── CS213 Data Structures and Algorithms
+│   ├── CS293 Data Structures Lab
+│   └── CS218 Design and Analysis of Algorithms
+│
+├── 08-Computer-Architecture
+│   ├── CS210 Logic Design
+│   ├── CS230 Digital Logic Design and Computer Architecture
+│   ├── CS231 Architecture Lab
+│   ├── CS232 Architecture Lab
+│   ├── CS288 Logic Design Lab
+│   ├── CS305 Computer Architecture
+│   └── CS341 Computer Architecture Lab
+│
+├── 09-Operating-Systems
+│   ├── CS219 Operating Systems
+│   ├── CS347 Operating Systems
+│   ├── CS236 Operating Systems Lab
+│   ├── CS333 Operating Systems Lab
+│   └── CS377 Operating Systems Lab
+│
+├── 10-Computer-Networks
+│   ├── CS224 Computer Networks
+│   ├── CS348 Computer Networks
+│   ├── CS252 Computer Networks Lab
+│   └── CS378 Computer Networks Lab
+│
+├── 11-Database-Management-System
+│   ├── CS317 Database and Information Systems
+│   ├── CS349 Database and Information Systems + Lab
+│   └── CS387 Database Lab
+│
+├── 12-Programming-Languages-and-Compiler
+│   ├── CS302 Implementation of Programming Languages
+│   ├── CS320 Implementation of Programming Languages
+│   ├── CS306 Compiler Lab
+│   ├── CS316 Compiler Lab
+│   ├── Compiler Design
+│   ├── Parsing
+│   ├── Semantic Analysis
+│   └── Code Generation
+│
+├── 13-Software-Engineering
+│   ├── Software Development Life Cycle
+│   ├── Design Patterns
+│   ├── Testing
+│   ├── Agile
+│   ├── DevOps Basics
+│   └── CS682 Software Engineering
+│
+├── 14-Artificial-Intelligence
+│   ├── CS217 AI and ML
+│   ├── CS337 AI and ML
+│   ├── CS344 Artificial Intelligence
+│   ├── CS240 AI Lab
+│   ├── CS335 AI Lab
+│   └── CS386 AI Lab
+│
+├── 15-Machine-Learning
+│   ├── CS419 Introduction to Machine Learning
+│   ├── CS725 Foundations of Machine Learning
+│   ├── Supervised Learning
+│   ├── Unsupervised Learning
+│   ├── Deep Learning
+│   ├── NLP
+│   └── Reinforcement Learning
+│
+├── 16-Cyber-Security
+│   ├── CS409 Introduction to Cryptography
+│   ├── CS649 Network Security
+│   ├── CS6003 Web Security
+│   ├── Ethical Hacking
+│   ├── Secure Coding
+│   └── Privacy Enhancing Technologies
+│
+├── 17-Cloud-and-Distributed-Systems
+│   ├── Cloud Computing
+│   ├── Virtualization
+│   ├── Distributed Systems
+│   ├── CS695 Virtualization and Cloud Computing
+│   └── High Performance Computing
+│
+├── 18-Mobile-and-Embedded-Systems
+│   ├── CS653 Mobile Computing
+│   ├── CS651 Advanced Microprocessor Systems
+│   ├── CS684 Embedded Systems
+│   └── IoT
+│
+├── 19-Computer-Vision-and-Graphics
+│   ├── CS663 Digital Image Processing
+│   ├── CS674 Computer Vision Understanding
+│   ├── CS675 Computer Graphics
+│   ├── CS763 Computer Vision
+│   └── Image Processing
+│
+├── 20-Blockchain
+│   ├── CS762 Advanced Blockchain Technology
+│   └── CS765 Blockchain, Cryptocurrency and Smart Contracts
+│
+├── 21-Advanced-CS
+│   ├── Game Theory
+│   ├── Graph Theory
+│   ├── Parallel Computing
+│   ├── Theory of Computation
+│   ├── Formal Verification
+│   └── Research Topics
+│
+├── 22-Projects
+│   ├── Mini Projects
+│   ├── Major Projects
+│   ├── Open Source
+│   ├── CS593 Dual Degree Project I
+│   └── CS594 Dual Degree Project II
+│
+└── 23-Interview-Preparation
+    ├── Aptitude
+    ├── DSA
+    ├── OOP
+    ├── DBMS
+    ├── OS
+    ├── CN
+    ├── System Design
+    ├── HR Interview
+    └── Mock Interviews
