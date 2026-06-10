@@ -1,0 +1,588 @@
+Generative AI (GenAI) Overview Roadmap
+Created by Triveni Paswan using various online resources, research papers, official documentation, and learning references.
+
+1. Introduction to Generative AI
+
+Definition:
+Generative AI is a branch of Artificial Intelligence that creates new content such as text, images, audio, video and code based on patterns learned from existing data.
+
+Goal:
+To generate human-like content automatically.
+
+Examples:
+- ChatGPT
+- Gemini
+- Claude
+- GitHub Copilot
+- Midjourney
+- DALL·E
+
+2. Artificial Intelligence Foundation
+
+Definition:
+Generative AI is built on top of Artificial Intelligence concepts.
+
+Topics:
+- Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Neural Networks
+
+Relationship:
+
+Artificial Intelligence
+│
+├── Machine Learning
+│   │
+│   └── Deep Learning
+│       │
+│       └── Generative AI
+
+3. Mathematics for Generative AI
+
+Definition:
+Mathematics is the backbone of AI model training.
+
+Topics:
+
+3.1 Linear Algebra
+
+Definition:
+Study of vectors and matrices.
+
+Applications:
+- Embeddings
+- Neural Networks
+
+3.2 Probability
+
+Definition:
+Study of uncertainty.
+
+Applications:
+- Token Prediction
+- Language Models
+
+3.3 Statistics
+
+Definition:
+Study of data analysis.
+
+Applications:
+- Data Understanding
+- Model Evaluation
+
+3.4 Calculus
+
+Definition:
+Study of change.
+
+Applications:
+- Gradient Descent
+- Optimization
+
+4. Deep Learning Foundation
+
+Definition:
+Generative AI is powered by Deep Learning.
+
+Topics:
+
+4.1 Neural Networks
+
+4.2 Activation Functions
+
+4.3 Backpropagation
+
+4.4 Gradient Descent
+
+4.5 Optimizers
+
+- Adam
+- SGD
+- RMSProp
+
+5. Language Models
+
+Definition:
+Models trained to predict and generate text.
+
+Goal:
+Predict next word/token.
+
+Examples:
+- GPT
+- BERT
+- T5
+- Llama
+
+6. Tokens and Tokenization
+
+Definition:
+Breaking text into smaller units called tokens.
+
+Example:
+
+Sentence:
+
+"I Love AI"
+
+Tokens:
+
+["I","Love","AI"]
+
+Importance:
+All LLMs work on tokens instead of words.
+
+7. Embeddings
+
+Definition:
+Numerical vector representation of text.
+
+Purpose:
+Allow machines to understand semantic meaning.
+
+Example:
+
+King → Vector
+
+Queen → Vector
+
+Applications:
+- Semantic Search
+- RAG
+- Recommendation Systems
+
+8. Transformers
+
+Definition:
+Deep Learning architecture introduced in 2017.
+
+Paper:
+Attention Is All You Need
+
+Advantages:
+- Parallel Processing
+- Better Context Understanding
+
+Components:
+
+8.1 Encoder
+
+Definition:
+Processes input.
+
+8.2 Decoder
+
+Definition:
+Generates output.
+
+8.3 Attention Mechanism
+
+Definition:
+Focuses on important words.
+
+9. Attention Mechanism
+
+Definition:
+Technique that helps models focus on relevant information.
+
+Types:
+
+9.1 Self Attention
+
+9.2 Multi Head Attention
+
+Applications:
+- GPT
+- BERT
+- Llama
+
+10. Large Language Models (LLMs)
+
+Definition:
+Massive Transformer-based models trained on huge datasets.
+
+Examples:
+
+10.1 GPT
+
+Created By:
+OpenAI
+
+10.2 Gemini
+
+Created By:
+Google
+
+10.3 Claude
+
+Created By:
+Anthropic
+
+10.4 Llama
+
+Created By:
+Meta
+
+10.5 Mistral
+
+Created By:
+Mistral AI
+
+11. LLM Training Process
+
+Data Collection
+↓
+Data Cleaning
+↓
+Tokenization
+↓
+Pretraining
+↓
+Fine Tuning
+↓
+Evaluation
+↓
+Deployment
+
+12. Pretraining
+
+Definition:
+Initial training on massive datasets.
+
+Goal:
+Learn language patterns.
+
+Data Sources:
+- Books
+- Websites
+- Research Papers
+- Articles
+
+13. Fine Tuning
+
+Definition:
+Training a pre-trained model for a specific task.
+
+Examples:
+- Medical Chatbot
+- Legal Assistant
+- Coding Assistant
+
+Benefits:
+- Better Domain Knowledge
+- Improved Accuracy
+
+14. Instruction Tuning
+
+Definition:
+Training model to follow instructions.
+
+Example:
+
+Prompt:
+Explain AI
+
+Response:
+Detailed explanation.
+
+15. Reinforcement Learning from Human Feedback (RLHF)
+
+Definition:
+Improves model responses using human feedback.
+
+Purpose:
+Align AI with human preferences.
+
+Applications:
+- ChatGPT
+- Claude
+
+16. Prompt Engineering
+
+Definition:
+Art of writing effective prompts.
+
+Goal:
+Get better AI outputs.
+
+Types:
+
+16.1 Zero Shot Prompting
+
+Definition:
+No examples provided.
+
+16.2 One Shot Prompting
+
+Definition:
+One example provided.
+
+16.3 Few Shot Prompting
+
+Definition:
+Multiple examples provided.
+
+16.4 Chain of Thought Prompting
+
+Definition:
+Step-by-step reasoning prompts.
+
+17. Retrieval Augmented Generation (RAG)
+
+Definition:
+Combines retrieval systems with LLMs.
+
+Process:
+
+User Query
+↓
+Document Search
+↓
+Relevant Context
+↓
+LLM Response
+
+Benefits:
+- Up-to-date Information
+- Reduced Hallucination
+
+18. Vector Databases
+
+Definition:
+Databases storing embeddings.
+
+Examples:
+
+- Pinecone
+- Weaviate
+- ChromaDB
+- FAISS
+
+Applications:
+- RAG Systems
+- Semantic Search
+
+19. AI Agents
+
+Definition:
+Autonomous systems capable of reasoning and taking actions.
+
+Components:
+
+- Planning
+- Memory
+- Tools
+- Reasoning
+
+Examples:
+- AutoGPT
+- Agent Systems
+
+20. Multimodal AI
+
+Definition:
+AI capable of understanding multiple data types.
+
+Input Types:
+
+- Text
+- Image
+- Audio
+- Video
+
+Examples:
+- GPT-4o
+- Gemini
+- Claude
+
+21. Image Generation
+
+Definition:
+Generating images using AI.
+
+Models:
+
+21.1 DALL·E
+
+21.2 Midjourney
+
+21.3 Stable Diffusion
+
+Applications:
+- Art Generation
+- Marketing
+- Design
+
+22. Audio Generation
+
+Definition:
+Generating speech and sound.
+
+Applications:
+- Voice Assistants
+- Text to Speech
+- Music Generation
+
+23. Video Generation
+
+Definition:
+Generating videos from prompts.
+
+Examples:
+- Sora
+- Runway
+
+24. Code Generation
+
+Definition:
+Generating source code using AI.
+
+Examples:
+- GitHub Copilot
+- ChatGPT
+
+Applications:
+- Development
+- Debugging
+- Documentation
+
+25. Generative AI Frameworks
+
+25.1 Hugging Face
+
+Purpose:
+Open Source Models
+
+25.2 LangChain
+
+Purpose:
+LLM Application Development
+
+25.3 LlamaIndex
+
+Purpose:
+RAG Development
+
+25.4 OpenAI SDK
+
+Purpose:
+GPT Integration
+
+26. Model Evaluation
+
+Definition:
+Measuring model performance.
+
+Metrics:
+
+- Accuracy
+- BLEU Score
+- ROUGE Score
+- Perplexity
+
+27. Generative AI Security
+
+Topics:
+
+- Prompt Injection
+- Jailbreaking
+- Data Leakage
+- Model Misuse
+
+28. AI Ethics
+
+Definition:
+Responsible AI development.
+
+Topics:
+
+- Fairness
+- Transparency
+- Privacy
+- Accountability
+
+29. Generative AI Applications
+
+- Chatbots
+- Virtual Assistants
+- Content Writing
+- Coding Assistants
+- Image Generation
+- Video Generation
+- Education
+- Healthcare
+- Finance
+- Customer Support
+
+30. Generative AI Projects
+
+Beginner:
+
+- AI Chatbot
+- AI Story Generator
+- AI Content Generator
+
+Intermediate:
+
+- PDF Question Answering System
+- AI Resume Analyzer
+- AI Code Assistant
+
+Advanced:
+
+- RAG Chatbot
+- AI Agent
+- Multi Agent System
+- AI Interview Platform
+- Enterprise Knowledge Assistant
+
+31. Generative AI Interview Preparation
+
+Important Topics:
+
+- LLM
+- Transformer
+- Attention Mechanism
+- Tokenization
+- Embeddings
+- Fine Tuning
+- RLHF
+- Prompt Engineering
+- RAG
+- Vector Database
+- AI Agents
+- LangChain
+- LlamaIndex
+- GPT
+- Gemini
+- Claude
+
+Learning Flow:
+
+AI Fundamentals
+↓
+Machine Learning
+↓
+Deep Learning
+↓
+Neural Networks
+↓
+Transformers
+↓
+LLMs
+↓
+Prompt Engineering
+↓
+RAG
+↓
+Vector Databases
+↓
+AI Agents
+↓
+Projects
+↓
+Deployment
+↓
+Interview Preparation
