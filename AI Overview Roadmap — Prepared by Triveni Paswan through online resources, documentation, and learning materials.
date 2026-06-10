@@ -1,0 +1,189 @@
+Artificial Intelligence (AI)
+
+1. Definition
+AI is the field of computer science that enables machines to mimic human intelligence.
+
+2. History
+AI officially began in 1956 at the Dartmouth Conference.
+
+3. Goals
+Create systems that can learn, reason, solve problems and make decisions.
+
+4. Characteristics
+Learning, reasoning, perception, planning and decision making.
+
+5. Advantages
+Automation, accuracy, speed and scalability.
+
+6. Disadvantages
+Bias, privacy concerns, job displacement and high cost.
+
+7. Applications
+Chatbots, healthcare, finance, robotics, self-driving cars and recommendation systems.
+
+8. Types of AI
+
+8.1 Based on Capabilities
+
+8.1.1 Narrow AI (ANI)
+AI specialized for a single task.
+
+8.1.2 General AI (AGI)
+AI capable of performing any intellectual task a human can do.
+
+8.1.3 Super AI (ASI)
+AI that surpasses human intelligence in all domains.
+
+8.2 Based on Functionality
+
+8.2.1 Reactive Machines
+AI that reacts only to current input without memory.
+
+8.2.2 Limited Memory
+AI that learns using historical data.
+
+8.2.3 Theory of Mind
+AI capable of understanding emotions and intentions.
+
+8.2.4 Self-Aware AI
+AI possessing consciousness and self-awareness.
+
+9. AI Life Cycle
+Problem → Data → Training → Evaluation → Deployment → Monitoring.
+
+10. AI vs ML vs DL
+
+AI
+Broad field of creating intelligent machines.
+
+ML
+Subset of AI that learns from data.
+
+DL
+Subset of ML using deep neural networks.
+
+11. Mathematics for AI
+
+11.1 Linear Algebra
+Used for vectors, matrices and neural networks.
+
+11.2 Calculus
+Used for optimization and gradient descent.
+
+11.3 Probability
+Used for uncertainty and prediction.
+
+11.4 Statistics
+Used for data analysis and model evaluation.
+
+11.5 Optimization
+Used to minimize loss functions.
+
+12. Machine Learning
+Enables systems to learn patterns from data.
+
+12.1 Supervised Learning
+Learns using labeled data.
+
+12.2 Unsupervised Learning
+Finds hidden patterns in unlabeled data.
+
+12.3 Reinforcement Learning
+Learns through rewards and penalties.
+
+13. Deep Learning
+Uses multi-layer neural networks to learn complex patterns.
+
+14. Neural Networks
+Computational models inspired by the human brain.
+
+15. Computer Vision
+Enables machines to understand images and videos.
+
+16. Natural Language Processing (NLP)
+Enables machines to understand and generate human language.
+
+17. Generative AI
+Creates new content such as text, images, audio and video.
+
+18. Large Language Models (LLMs)
+AI models trained on massive text datasets for language tasks.
+
+19. Prompt Engineering
+Designing effective prompts to improve AI responses.
+
+20. RAG
+Combines retrieval systems with LLMs for accurate answers.
+
+21. Fine Tuning
+Adapting a pre-trained model to a specific task.
+
+22. AI Agents
+Autonomous systems that plan, reason and take actions.
+
+23. MLOps
+Practices for deploying and maintaining ML systems.
+
+24. AI Frameworks
+
+24.1 TensorFlow
+Google's deep learning framework.
+
+24.2 PyTorch
+Popular deep learning framework by Meta.
+
+24.3 Scikit-Learn
+Machine learning library for classical algorithms.
+
+24.4 Keras
+High-level API for deep learning.
+
+24.5 Hugging Face
+Platform for transformers and LLMs.
+
+25. AI Ethics
+Ensures fairness, transparency and responsible AI usage.
+
+26. Responsible AI
+Building AI systems that are safe, ethical and trustworthy.
+
+27. Explainable AI (XAI)
+Makes AI decisions understandable to humans.
+
+28. AI Security
+Protecting AI systems from attacks and misuse.
+
+29. AI Projects
+
+29.1 Chatbot
+Conversational AI assistant.
+
+29.2 Recommendation System
+Suggests products, movies or content.
+
+29.3 Face Recognition
+Identifies individuals from images.
+
+29.4 Spam Detection
+Classifies emails as spam or not spam.
+
+29.5 AI Voice Assistant
+Responds to voice commands.
+
+30. AI Interview Preparation
+Focus on AI fundamentals, ML, DL, NLP, CV, GenAI and projects.
+
+------------------------------------------------------------------
+------------------------------------------------------------------
+
+diff  b/w AI,ML DL NLP CV AND GenAI
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Topic                                 | Definition                                                                             | Main Concepts                                                                                                                              | Examples / Tools                                                                                                            |
+| ------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| **AI Fundamentals**                   | Basic foundation of Artificial Intelligence and how intelligent systems work.          | AI Definition, History, Goals, Types of AI, AI Life Cycle, Knowledge Representation, Search Algorithms, Expert Systems, Intelligent Agents | ChatGPT, Siri, Google Assistant                                                                                             |
+| **Machine Learning (ML)**             | Subset of AI where systems learn patterns from data without explicit programming.      | Supervised Learning, Unsupervised Learning, Reinforcement Learning, Feature Engineering, Model Training, Evaluation Metrics                | Linear Regression, Decision Tree, Random Forest, SVM, XGBoost                                                               |
+| **Deep Learning (DL)**                | Subset of ML that uses neural networks with multiple layers to learn complex patterns. | Neural Networks, Perceptron, Backpropagation, Activation Functions, CNN, RNN, LSTM, GRU, GANs, Autoencoders                                | TensorFlow, PyTorch, Keras                                                                                                  |
+| **Natural Language Processing (NLP)** | Field of AI that enables machines to understand and generate human language.           | Tokenization, Stemming, Lemmatization, POS Tagging, NER, Sentiment Analysis, Text Classification, Machine Translation, Transformers        | BERT, GPT, T5, Word2Vec                                                                                                     |
+| **Computer Vision (CV)**              | Field of AI that enables computers to understand images and videos.                    | Image Processing, Image Classification, Object Detection, Object Tracking, Face Recognition, OCR, Segmentation                             | OpenCV, YOLO, CNN, RCNN                                                                                                     |
+| **Generative AI (GenAI)**             | AI that creates new content such as text, images, audio and video.                     | LLMs, Prompt Engineering, RAG, Fine-Tuning, AI Agents, Multimodal AI, Diffusion Models                                                     | ChatGPT, Gemini, Claude, DALL·E, Stable Diffusion                                                                           |
+| **Projects**                          | Practical implementation of AI concepts to solve real-world problems.                  | Data Collection, Model Building, Deployment, Monitoring, Optimization                                                                      | Chatbot, Recommendation System, Resume Screener, Face Recognition, AI Interview System, Stock Prediction, Medical Diagnosis |
