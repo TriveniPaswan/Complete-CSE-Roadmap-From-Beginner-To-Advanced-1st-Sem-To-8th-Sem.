@@ -1,0 +1,428 @@
+Deep Learning (DL) Overview Roadmap
+Created by Triveni Paswan using various online resources, research papers, official documentation, and learning references.
+
+1. Introduction to Deep Learning
+
+Definition:
+Deep Learning is a subset of Machine Learning that uses Artificial Neural Networks with multiple layers to learn patterns from data.
+
+Goal:
+Enable machines to automatically learn complex features and make predictions.
+
+Examples:
+- Image Recognition
+- ChatGPT
+- Face Recognition
+- Self Driving Cars
+
+2. Prerequisites
+
+2.1 Mathematics
+
+Definition:
+Mathematics is the foundation of Deep Learning.
+
+Topics:
+- Linear Algebra
+- Calculus
+- Probability
+- Statistics
+- Optimization
+
+2.2 Python Programming
+
+Definition:
+Most popular programming language for Deep Learning.
+
+Topics:
+- Variables
+- Loops
+- Functions
+- OOP
+- NumPy
+- Pandas
+- Matplotlib
+
+3. Machine Learning Basics
+
+Definition:
+Machine Learning teaches systems to learn patterns from data.
+
+Topics:
+- Supervised Learning
+- Unsupervised Learning
+- Reinforcement Learning
+- Model Training
+- Model Evaluation
+
+4. Neural Networks
+
+Definition:
+Computational models inspired by the human brain.
+
+Components:
+- Input Layer
+- Hidden Layer
+- Output Layer
+
+Example:
+Image → Neural Network → Cat/Dog Prediction
+
+5. Perceptron
+
+Definition:
+Smallest unit of a Neural Network.
+
+Formula:
+Output = Activation(Σ(W×X)+B)
+
+Components:
+- Inputs
+- Weights
+- Bias
+- Activation Function
+
+6. Activation Functions
+
+Definition:
+Determine whether a neuron should activate.
+
+Types:
+
+6.1 Sigmoid
+Output Range: 0 to 1
+
+6.2 Tanh
+Output Range: -1 to 1
+
+6.3 ReLU
+Most commonly used activation function.
+
+6.4 Leaky ReLU
+Improved version of ReLU.
+
+6.5 Softmax
+Used in multi-class classification.
+
+7. Forward Propagation
+
+Definition:
+Process of passing input through the network to generate output.
+
+Flow:
+Input → Hidden Layers → Output
+
+8. Loss Functions
+
+Definition:
+Measure the error between predicted and actual output.
+
+Types:
+- Mean Squared Error (MSE)
+- Binary Cross Entropy
+- Categorical Cross Entropy
+
+Goal:
+Minimize Loss
+
+9. Backpropagation
+
+Definition:
+Process of updating weights using error information.
+
+Purpose:
+Improve model accuracy.
+
+10. Gradient Descent
+
+Definition:
+Optimization algorithm used to minimize loss.
+
+Types:
+- Batch Gradient Descent
+- Stochastic Gradient Descent (SGD)
+- Mini Batch Gradient Descent
+
+11. Optimizers
+
+Definition:
+Algorithms that update model weights.
+
+Types:
+- SGD
+- Adam
+- RMSProp
+- Adagrad
+
+12. Deep Neural Networks (DNN)
+
+Definition:
+Neural networks with multiple hidden layers.
+
+Applications:
+- Prediction
+- Classification
+- Recommendation Systems
+
+13. Convolutional Neural Networks (CNN)
+
+Definition:
+Deep Learning architecture designed for image processing.
+
+Components:
+- Convolution Layer
+- Pooling Layer
+- Flatten Layer
+- Fully Connected Layer
+
+Applications:
+- Image Classification
+- Face Recognition
+- Medical Imaging
+
+Popular Models:
+- LeNet
+- AlexNet
+- VGG
+- ResNet
+
+14. Recurrent Neural Networks (RNN)
+
+Definition:
+Neural networks designed for sequential data.
+
+Applications:
+- Text Processing
+- Speech Recognition
+
+Problem:
+Vanishing Gradient
+
+15. Long Short-Term Memory (LSTM)
+
+Definition:
+Improved RNN capable of learning long-term dependencies.
+
+Applications:
+- NLP
+- Time Series Forecasting
+
+16. Gated Recurrent Unit (GRU)
+
+Definition:
+Simplified version of LSTM.
+
+Advantages:
+- Faster Training
+- Less Complexity
+
+17. Autoencoders
+
+Definition:
+Neural networks used for feature learning and dimensionality reduction.
+
+Applications:
+- Compression
+- Anomaly Detection
+
+18. Generative Adversarial Networks (GANs)
+
+Definition:
+Two neural networks competing to generate realistic data.
+
+Components:
+- Generator
+- Discriminator
+
+Applications:
+- Image Generation
+- Deepfakes
+- Art Generation
+
+19. Transfer Learning
+
+Definition:
+Using pre-trained models for new tasks.
+
+Benefits:
+- Faster Training
+- Less Data Required
+
+Examples:
+- ResNet
+- EfficientNet
+- BERT
+
+20. Natural Language Processing (NLP)
+
+Definition:
+Deep Learning applied to text and language.
+
+Topics:
+- Tokenization
+- Embeddings
+- Transformers
+- LLMs
+
+Applications:
+- Chatbots
+- Translation
+- Text Classification
+
+21. Transformers
+
+Definition:
+Architecture that uses attention mechanisms.
+
+Advantages:
+- Parallel Processing
+- Better Context Understanding
+
+Applications:
+- GPT
+- BERT
+- T5
+
+22. Large Language Models (LLMs)
+
+Definition:
+Massive transformer-based models trained on huge datasets.
+
+Examples:
+- GPT
+- Gemini
+- Claude
+- Llama
+
+23. Computer Vision
+
+Definition:
+Enabling computers to understand images and videos.
+
+Topics:
+- Image Classification
+- Object Detection
+- Segmentation
+- OCR
+
+24. Reinforcement Learning
+
+Definition:
+Learning through rewards and penalties.
+
+Components:
+- Agent
+- Environment
+- Reward
+
+Applications:
+- Robotics
+- Games
+- Self Driving Cars
+
+25. Deep Learning Frameworks
+
+25.1 TensorFlow
+Google's Deep Learning Framework.
+
+25.2 Keras
+High-level Deep Learning API.
+
+25.3 PyTorch
+Most popular research framework.
+
+25.4 Hugging Face
+Popular NLP and LLM platform.
+
+26. Model Evaluation
+
+Metrics:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
+
+27. Model Deployment
+
+Definition:
+Making models available for real-world use.
+
+Tools:
+- Flask
+- FastAPI
+- Docker
+- Kubernetes
+
+28. MLOps
+
+Definition:
+Managing the complete lifecycle of ML/DL systems.
+
+Topics:
+- CI/CD
+- Monitoring
+- Versioning
+- Automation
+
+29. Deep Learning Projects
+
+Beginner:
+- Digit Recognition
+- Spam Detection
+- Sentiment Analysis
+
+Intermediate:
+- Face Mask Detection
+- Image Classifier
+- Chatbot
+
+Advanced:
+- AI Assistant
+- Image Generator
+- Recommendation System
+- Medical Diagnosis System
+
+30. Deep Learning Interview Preparation
+
+Must Know Topics:
+- Neural Networks
+- Activation Functions
+- Backpropagation
+- Gradient Descent
+- CNN
+- RNN
+- LSTM
+- GAN
+- Transformers
+- BERT
+- GPT
+- Transfer Learning
+- PyTorch
+- TensorFlow
+
+Learning Flow:
+
+Mathematics
+↓
+Python
+↓
+Machine Learning
+↓
+Neural Networks
+↓
+Deep Learning Fundamentals
+↓
+CNN
+↓
+RNN/LSTM
+↓
+Transformers
+↓
+LLMs
+↓
+Projects
+↓
+Deployment
+↓
+Interview Preparation
